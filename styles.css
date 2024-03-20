@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-color: #c5e4e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15vh;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #3e6264;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #fff;
+  width: 90vh;
+  border: transparent;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.division2 {
+  background-color: #00474b;
+  border: transparent;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 20px;
+}
+
+.select-percentage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+}
+
+.total1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.total2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.total1,
+.total2 {
+  width: 40vh; /* Establece un ancho fijo para los elementos internos */
+}
+
+.people {
+  display: flex;
+  gap: 8px;
+  padding-top: 20px;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+}
+
+.tip {
+  color: #717e7e;
+  font-weight: bold;
+}
+
+.of {
+  color: #717e7e;
+  font-weight: bold;
+}
+
+.bill {
+  color: #717e7e;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  background-color: #9fe8df;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #034b49;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #85afaa;
+  color: #fff;
+}
+
+.sub-title {
+  color: #def1f5;
+}
+
+
+.option {
+  background-color: #00474b;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vh;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #9fe8df;
+  color: #004847;
+}
+
+.option.selected {
+  background-color: #9fe8df;
+  color: #004847;
+}
+
+.select-percentage .option {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.input-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.custom-input {
+  padding-left: 30px;
+  text-align: end;
+  color: #0a4648;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icon {
+  position: absolute;
+  left: 530px;
+}
+
+.sub-title {
+  font-weight: bold;
+}
+
+.propina {
+  font-size: 35px;
+  font-weight: bold;
+  color: #34bbac;
+}
+
+.total {
+  font-size: 35px;
+  font-weight: bold;
+  color: #34bbac;
+}
+
+.propinaPorPersona {
+  font-size: 35px;
+  font-weight: bold;
+  color: #34bbac;
+}
